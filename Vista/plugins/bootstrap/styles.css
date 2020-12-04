@@ -1,0 +1,307 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+
+    width: 100%;
+    display: flex;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: #114358;
+}
+
+header span{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+    position: relative;
+    top: 16px;
+    left: 10px;
+}
+
+header span:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.content-menu{
+    width: 100px;
+    background: #161616;
+    transition: all 300ms;
+}
+
+.content-menu2{
+    margin-left: -100px;
+}
+
+.content-menu li{
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.content-menu li:hover{
+    transform: translateY(10px);
+    background: rgba(0,0,0,0.5);
+}
+
+.content-menu li span{
+    font-size: 30px;
+}
+
+.content-menu li h4{
+    font-weight: 100;
+    transform: translateY(18px) translateX(-160px);
+    transition: all 300ms;
+    
+}
+
+.icon1{
+    color: #9c9c9c;
+}
+
+.icon2{
+    color: #9c9c9c;
+}
+
+
+.icon3{
+    color: #9c9c9c;
+}
+
+
+.icon4{
+    color: #9c9c9c;
+}
+
+
+.icon5{
+    color: #9c9c9c;
+}
+
+
+.icon6{
+    color: #9c9c9c;
+}
+
+
+.icon7{
+    color: #9c9c9c;
+}
+
+
+.icon8{
+    color: #9c9c9c;
+}
+
+
+.icon9{
+    color: #9c9c9c;
+}
+
+.icon10{
+    color: #9c9c9c;
+}
+
+.content-menu:hover .text1{
+    transform: translateX(0px);
+    transition: all 100ms;
+    font-size: 80%;
+}
+
+.content-menu:hover .text2{
+    transform: translateX(0px);
+    transition: all 200ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text3{
+    transform: translateX(0px);
+    transition: all 300ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text4{
+    transform: translateX(0px);
+    transition: all 400ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text5{
+    transform: translateX(0px);
+    transition: all 500ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text6{
+    transform: translateX(0px);
+    transition: all 600ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text7{
+    transform: translateX(0px);
+    transition: all 700ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text8{
+    transform: translateX(0px);
+    transition: all 800ms;
+    font-size: 80%;
+}
+
+
+.content-menu:hover .text9{
+    transform: translateX(0px);
+    transition: all 900ms;
+    font-size: 80%;
+}
+
+
+article{
+    padding: 20px;
+}
+
+article h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+article p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Color azul en el navbar y footer */
+nav {
+    background-color: #114358;
+  }
+  
+  .hover:hover{
+    border-bottom: 5px solid #eee;
+    border-top: 5px solid #eee;
+  }
+  
+  footer {
+    background-color: #114358;
+  }
+  
+  
+  /* Estilos para las tablas */
+  .card-header{
+    background-color: #F2AA1F;
+    font-family: 'IBM Plex Sans', bold;
+    font-size: 25px;
+  
+  }
+  
+  /* Tipografia */
+  .tipografia-navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+  }
+  
+  .tipografia-footer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  
+  body{
+    background-color: #e7e7e7;
+  }
+  
+  
+  /* Contenido */
+  .cuerpo{
+    margin-top: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: #FFFF;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 20px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #f8fff5;
+  }
+
+  
+/* Estilos del login */
+.color-login{
+    background-color: #114358;
+  }
+  
+  .main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+  }
+  
+  .modal-content{
+    background-color: #e7e7e7;
+    padding: 50px;
+    width: 450px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+  }
+  .user-img{
+    margin-top: -10px;
+    margin-bottom: 35px;
+  }
+  
+  .user-img img{
+    width: 300px;
+    height: 150px;
+  
+  
+  }
+  
+  .form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    border-radius: 5px;
+  }
+  
+  .boton-login{
+    width: 60%;
+    margin: 5px 0 25px;
+  }
+  
+  /* Estilos para la Validacion del Formulario */
+  
+  .formulario__grupo-input {
+    position: relative;
+  }
+  
+  .formulario__input:focus {
+      border: 3px solid #F2AA1F;
+      outline: none;
+      box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+  }
+
+  .modal-body{
+      padding: 100px;
+      color: red;
+  }
+
+  

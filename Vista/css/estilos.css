@@ -1,0 +1,152 @@
+/* Color azul en el navbar y footer */
+nav {
+  background-color: #114358;
+}
+
+footer {
+  background-color: #114358;
+}
+
+
+/* Estilos para las tablas */
+.card-header{
+  background-color: #F2AA1F;
+  font-family: 'IBM Plex Sans', bold;
+  font-size: 25px;
+
+}
+
+
+/* Tipografia */
+.tipografia-navbar{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+
+.tipografia-footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+body{
+  background-color: #e7e7e7;
+}
+
+
+/* Contenido */
+.cuerpo{
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: #FFFF;
+  border-radius: 35px 35px 35px 35px;
+  -moz-border-radius: 35px 35px 35px 35px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 0px solid #f8fff5;
+}
+
+
+/* Estilos del login */
+.color-login{
+  background-color: #114358;
+}
+
+.main-section{
+  margin:0 auto;
+  margin-top:25%;
+  padding: 0;
+}
+
+.modal-content{
+  background-color: #e7e7e7;
+  padding: 50px;
+  width: 450px;
+  box-shadow: 0px 0px 3px #848484;
+  border-radius: 35px 35px 35px 35px;
+  -moz-border-radius: 35px 35px 35px 35px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+}
+.user-img{
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+
+.user-img img{
+  width: 300px;
+  height: 150px;
+
+
+}
+
+.form-group input{
+  height: 42px;
+  font-size: 18px;
+  border:0;
+  border-radius: 5px;
+}
+
+.boton-login{
+  width: 60%;
+  margin: 5px 0 25px;
+}
+
+/* Estilos para la Validacion del Formulario */
+
+.formulario__grupo-input {
+  position: relative;
+}
+
+.formulario__input:focus {
+    border: 3px solid #F2AA1F;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+  font-size: 12px;
+  margin-bottom: 0px;
+  display: none;
+}
+
+.formulario__input-error-activo {
+  display: block;
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 100;
+  font-size: 10px;
+  opacity: 0;
+}
+
+.formulario__mensaje {
+  height: 45px;
+  line-height: 45px;
+  background: #F66060;
+  color: #FFF;
+  padding: 0 15px;
+  border-radius: 3px;
+  display: none;
+}
+
+.formulario__mensaje-activo {
+  display: block;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+  color: #1ed12d;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+  color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+  color: #bb2929;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+  border: 3px solid #bb2929;
+}
